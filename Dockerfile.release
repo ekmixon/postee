@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.15
 
 EXPOSE 8082
 EXPOSE 8445
