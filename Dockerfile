@@ -5,7 +5,7 @@ WORKDIR /webhook/
 RUN go build -o ./bin/postee main.go
 
 
-FROM alpine
+FROM alpine:3.18.5
 RUN apk update && apk add wget ca-certificates
 EXPOSE 8082
 EXPOSE 8445
